@@ -1,25 +1,34 @@
-# Metasploitable VAPT Report
+# Vulnerability Assessment and Penetration Testing (VAPT) on Metasploitable 2
 
-# Project Overview
-This project demonstrates a Vulnerability Assessment and Penetration Testing (VAPT) exercise performed on a deliberately vulnerable machine (Metasploitable2) using Kali Linux.
+## Objective
+To identify, analyze, and exploit vulnerabilities in a deliberately vulnerable system (Metasploitable 2) in a controlled lab environment.
 
-# Lab Setup
-- Attacker Machine: Kali Linux
-- Target Machine: Metasploitable2
-- Network Type: NAT
-- Tools Used: Nmap, Metasploit, Searchsploit
+## Scope
+- Target: Metasploitable 2
+- Attacker: Kali Linux
+- Network: Host-only
+- Testing Type: Black-box testing
 
-# Methodology
-1. Reconnaissance and Port Scanning
-2. Service Enumeration
-3. Vulnerability Identification
+## Tools Used
+- Nmap
+- Nikto
+- Metasploit Framework
+- Kali Linux
+
+## Methodology
+1. Reconnaissance
+2. Vulnerability Scanning
+3. Enumeration
 4. Exploitation
-5. Post-Exploitation Analysis
-6. Mitigation Recommendations
+5. Post-Exploitation
+6. Risk Analysis & Mitigation
 
-# Exploited Vulnerability
-- **Service:** FTP
-- **Vulnerability:** vsftpd 2.3.4 Backdoor
-- **Impact:** Root shell access obtained
+## Key Findings
+- Multiple critical vulnerabilities identified
+- Remote shell access achieved
+- Complete system compromise possible
+
+## Disclaimer
+This project was conducted strictly for educational purposes in a controlled lab environment. No real-world systems were harmed.
 
 
