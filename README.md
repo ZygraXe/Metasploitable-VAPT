@@ -11,7 +11,7 @@ To identify, analyze, and exploit vulnerabilities in a deliberately vulnerable s
 
 ## Tools Used
 - Nmap
-- Nikto
+- Searchsploit
 - Metasploit Framework
 - Kali Linux
 
